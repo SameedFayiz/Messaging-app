@@ -13,7 +13,7 @@ const ChatsSection = (props) => {
     console.log(e.target.localName == "div");
   };
   return (
-    <section className="w-full min-h-full divide-y-2 divide-slate-500 bg-white">
+    <section className="w-full h-screen divide-y-2 divide-slate-500 bg-white overflow-y-scroll">
       <div className="w-full bg-sky-500">
         <p className="text-sm text-white">Start a new chat</p>
         <Button className="w-full" variant="contained">

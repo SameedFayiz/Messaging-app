@@ -7,10 +7,7 @@ const ChatArea = (props) => {
   const clickHandler = () => {};
 
   return (
-    <section
-      className="w-full max-h-[92vh] min-h-full flex flex-col"
-      onClick={clickHandler}
-    >
+    <section className="w-full h-screen flex flex-col" onClick={clickHandler}>
       <div className="h-16 flex items-center p-5 gap-5">
         <Avatar
           sx={{ width: 48, height: 48 }}
